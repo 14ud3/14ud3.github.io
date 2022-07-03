@@ -1,31 +1,35 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
+    "name": "Ignacio Laude",
+    "label": "Software Developer",
     "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
+    "email": "ilaude@asu.edu",
+    "phone": "(+63)956 720 2632",
+    "website": "https://14ud3.github.io",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "14ud3", "url": "http://github.com/14ud3" },
+      { "network": "linkedin", "username": "14ud3", "url": "http://linkedin.com/in/ilaude" },
+      { "network": "twitter", "username": "14ud3", "url": "http://twitter.com/14ud3" },
+      { "network": "researchgate", "username": "14ud3", "url": "http://instagram.com/changeme" }
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
+    { "name": "Computer Languages" },
     { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Competitive Programming" },
+    { "name": "Reverse Engineering" },
+    { "name": "Go Game" }
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "name": "Languages",
+      "keywords": [ "HTML", "CSS", "Python", "C++", "Java", "Javascript" ]
+    },
+    {
+      "name": "Frameworks",
+      "keywords": [ "", "CSS", "Python", "C++", "Java", "Javascript" ]
     },
     {
       "name": "Toolsets/OS",
