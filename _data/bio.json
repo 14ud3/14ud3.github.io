@@ -6,7 +6,7 @@
     "email": "ilaude@asu.edu",
     "phone": "(+63)956 720 2632",
     "website": "https://14ud3.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "summary": "I am a Sotware Engineer and a Hardware Hacker currently majoring in Mathematics and Computer Science. I expect to graduate in Spring, 2024.",
     "location": { "address": "", "postalCode": "5300", "city": "Puerto Princesa", "countryCode": "PH", "region": "Palawan" },
     "profiles": [
       { "network": "github", "username": "14ud3", "url": "http://github.com/14ud3" },
@@ -19,7 +19,7 @@
     { "name": "Robotics" },
     { "name": "Competitive Programming" },
     { "name": "Reverse Engineering" },
-    { "name": "Go Game" }
+    { "name": "Chess" }
   ],
   "skills": [
     {
@@ -41,11 +41,11 @@
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
+      "institution": "",
+      "area": "",
+      "studyType": "",
+      "startDate": "",
+      "endDate": "",
       "courses": [
       ]
     }
@@ -71,22 +71,22 @@
       "endDate": "Present",
       "summary": "",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Identifying, documenting, and reporting vulnerabilities across many organizations and industries.",
+        ""
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "organization": "",
+      "website": "",
+      "position": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "",
+        ""
       ]
     },
     {
