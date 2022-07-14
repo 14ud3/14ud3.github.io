@@ -135,7 +135,7 @@
       "summary": "Rank: 1, Score: 1300."
     },
     {
-      "title": "EO GSEA 2020 - 3rd Runner Up";
+      "title": "EO GSEA 2020 - 3rd Runner Up",
       "date": "Nov 2020",
       "awarder": "Entrepreneur's Organization - Global Student Entrepreneurship Awards",
       "summary": "In recognition of my achievements as a student entrepreneur through the Entrepreneur's Organization - Global Student Entrepreneurship Awards."
@@ -175,6 +175,20 @@
       "date": "Aug 2019",
       "awarder": "Meta",
       "summary": ""
+    }
+  ],
+  "publication": [
+    {
+      "title": "Brain-Computer Interfaces (BCI): Development of a BCI based on Motor Imagery with Advanced EEG Processing",
+      "date": "May 2021",
+      "publisher": "ResearchGate",
+      "summary": "Basically setting up a connection between the human brain and the computer device to control or to perform certain activity using brain signals."
+    };
+    {
+      "title": "Basic Solutions to Quantum Mechanical Systems",
+      "date": "Nov 2021",
+      "publisher": "ResearchGate",
+      "summary": "This generic code solves for, and plots, the eigenfunctions and eigenvalues of a particle in a one-dimensional potential, based on the finite difference method code."
     }
   ],
   "references": [
