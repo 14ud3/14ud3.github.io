@@ -28,11 +28,11 @@
     },
     {
       "name": "Libraries/Frameworks",
-      "keywords": [ "NodeJS", "Laravel", "CodeIgniter", "Spring", "Django", "Flask" ]
+      "keywords": [ "NodeJS", "Laravel", "CodeIgniter", "Spring", "Django", "Boostrap" ]
     },
     {
       "name": "Database Systems",
-      "keywords": [ "MySQL", "SQLLite", "NoSQL", "SQLAlchemy" ]
+      "keywords": [ "MySQL", "SQLLite", "NoSQL", "SQLAlchemy", "MongoDB", "Memcached/Redis" ]
     },
     {
       "name": "Toolsets/OS",
