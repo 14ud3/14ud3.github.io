@@ -10,7 +10,6 @@
     "location": { "address": "", "postalCode": "5300", "city": "Puerto Princesa", "countryCode": "PH", "region": "Palawan" },
     "profiles": [
       { "network": "github", "username": "14ud3", "url": "http://github.com/14ud3" },
-      { "network": "linkedin", "username": "14ud3", "url": "http://linkedin.com/in/laude" },
       { "network": "twitter", "url": "http://twitter.com/14ud3" }
     ]
   },
