@@ -97,7 +97,7 @@
       "endDate": "",
       "summary": "",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
+        "",
         "Member, 2021-Present",
         "Webmaster/IT Officer, Student Developer, ASU, 2021-Present"
       ]
@@ -130,50 +130,50 @@
     },
     {
       "title": "2021 Ateneo De Manila Senior High School Dagitab Programming Contest (Codeforces)";
-      "date": "Jan 2021";
-      "awarder": "Codeforces";
+      "date": "Jan 2021",
+      "awarder": "Codeforces",
       "summary": "Rank: 1, Score: 1300."
     },
     {
       "title": "EO GSEA 2020 - 3rd Runner Up";
-      "date": "Nov 2020";
-      "awarder": "Entrepreneur's Organization - Global Student Entrepreneurship Awards";
+      "date": "Nov 2020",
+      "awarder": "Entrepreneur's Organization - Global Student Entrepreneurship Awards",
       "summary": "In recognition of my achievements as a student entrepreneur through the Entrepreneur's Organization - Global Student Entrepreneurship Awards."
     },
     {
-      "title": "Security Researcher Acknowledgements for Microsoft Online Services";
-      "date": "Jun 2019";
-      "awarder": "Microsoft";
+      "title": "Security Researcher Acknowledgements for Microsoft Online Services",
+      "date": "Jun 2019",
+      "awarder": "Microsoft",
       "summary": ""
     },
     {
-      "title": "Apple Security Acknowledgements";
-      "date": "Mar 2019";
-      "awarder": "Apple";
+      "title": "Apple Security Acknowledgements",
+      "date": "Mar 2019",
+      "awarder": "Apple",
       "summary": ""
     },
     {
-      "title": "Adobe Security Acknowledgements";
-      "date": "Jan 2019";
-      "awarder": "Adobe";
+      "title": "Adobe Security Acknowledgements",
+      "date": "Jan 2019",
+      "awarder": "Adobe",
       "summary": ""
     },
     {
-      "title": "Yahoo! Security Hall of Fame";
-      "date": "Jan 2019";
-      "awarder": "Yahoo!";
+      "title": "Yahoo! Security Hall of Fame",
+      "date": "Jan 2019",
+      "awarder": "Yahoo!",
       "summary": ""
     },
     {
-      "title": "Oracle Critical Patch";
-      "date": "Apr 2019";
-      "awarder": "Oracle";
+      "title": "Oracle Critical Patch",
+      "date": "Apr 2019",
+      "awarder": "Oracle",
       "summary": ""
     },
     {
-      "title": "Faceboook White Hats";
-      "date": "Aug 2019";
-      "awarder": "Meta";
+      "title": "Faceboook White Hats",
+      "date": "Aug 2019",
+      "awarder": "Meta",
       "summary": ""
     }
   ],
