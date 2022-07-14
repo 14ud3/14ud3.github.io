@@ -16,14 +16,14 @@
   "interests": [
     { "name": "Computer Languages" },
     { "name": "Security Research" },
-    { "name": "Competitive Programming" },
-    { "name": "Reverse Engineering" },
+    { "name": "Dynamic Programming" },
+    { "name": "Software Engineering" },
     { "name": "Chess" }
   ],
   "skills": [
     {
       "name": "Languages",
-      "keywords": [ "HTML", "CSS", "Python", "C++", "Java", "Javascript", "PHP" ]
+      "keywords": [ "HTML", "CSS", "Python", "C/C++", "Java", "Javascript", "PHP" ]
     },
     {
       "name": "Libraries/Frameworks",
@@ -36,17 +36,6 @@
     {
       "name": "Toolsets/OS",
       "keywords": [ "MacOS", "Ubuntu", "Version Control (Git/GitHub)", "Heroku", "Eclipse", "Docker", "g++", "TI LaunchPad" ]
-    }
-  ],
-  "education": [
-    {
-      "institution": "",
-      "area": "",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "",
-      "courses": [
-      ]
     }
   ],
   "work": [
@@ -77,11 +66,11 @@
   ],
   "volunteer": [
     {
-      "organization": "",
-      "website": "",
-      "position": "",
-      "startDate": "",
-      "endDate": "",
+      "organization": "The Software Developers Association",
+      "website": "https://thesoda.io",
+      "position": "Member",
+      "startDate": "2021",
+      "endDate": "Present",
       "summary": "",
       "highlights": [
         "",
@@ -97,7 +86,7 @@
       "summary": "",
       "highlights": [
         "",
-        "Member, 2021-Present",
+        "Member",
         "Webmaster/IT Officer, Student Developer, ASU, 2021-Present"
       ]
     }
