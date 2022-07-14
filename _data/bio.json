@@ -6,7 +6,7 @@
     "email": "ilaude@asu.edu",
     "phone": "(+63)956 720 2632",
     "website": "https://14ud3.github.io",
-    "summary": "I am a Sotware Engineer and a Hardware Hacker currently majoring in Mathematics and Computer Science. I expect to graduate in Spring, 2024. While my work focuses on Security Research and Software Development, I love joining CP competitions, you can check my old blog here: https://14ud3.blogspot.com, building custom keyboards and playing chess. My non-work interests range widely, everything from quantum computing, philosophy to chaos theory. I could tell you about it, but THAT would NOT be a “length-limited” conversation!.",
+    "summary": "I am a Sotware Engineer and a Hardware Hacker currently majoring in Mathematics and Computer Science. I expect to graduate in Spring, 2024. While my work focuses on Security Research and Software Development, I love joining CP competitions, you can check my old blog here: https://14ud3.blogspot.com, I love building custom keyboards and playing chess. My non-work interests range widely, everything from quantum computing, philosophy to chaos theory. I could tell you about it, but THAT would NOT be a “length-limited” conversation!.",
     "location": { "address": "", "postalCode": "5300", "city": "Puerto Princesa", "countryCode": "PH", "region": "Palawan" },
     "profiles": [
       { "network": "github", "username": "14ud3", "url": "http://github.com/14ud3" },
@@ -183,7 +183,7 @@
       "date": "May 2021",
       "publisher": "ResearchGate",
       "summary": "Basically setting up a connection between the human brain and the computer device to control or to perform certain activity using brain signals."
-    };
+    },
     {
       "title": "Basic Solutions to Quantum Mechanical Systems",
       "date": "Nov 2021",
