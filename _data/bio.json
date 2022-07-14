@@ -6,17 +6,17 @@
     "email": "ilaude@asu.edu",
     "phone": "(+63)956 720 2632",
     "website": "https://14ud3.github.io",
-    "summary": "I am a Sotware Engineer and a Hardware Hacker currently majoring in Mathematics and Computer Science. I expect to graduate in Spring, 2024.",
+    "summary": "I am a Sotware Engineer and a Hardware Hacker currently majoring in Mathematics and Computer Science. I expect to graduate in Spring, 2024. While my work focuses on Security Research and Software Development, I love joining CP competitions, you can check my old blog here: https://14ud3.blogspot.com, my non-work interests range widely, everything from quantum computing, philosophy to chaos theory. I could tell you about it, but THAT would NOT be a “length-limited” conversation!.",
     "location": { "address": "", "postalCode": "5300", "city": "Puerto Princesa", "countryCode": "PH", "region": "Palawan" },
     "profiles": [
       { "network": "github", "username": "14ud3", "url": "http://github.com/14ud3" },
-      { "network": "linkedin", "username": "14ud3", "url": "http://linkedin.com/in/ilaude" },
+      { "network": "linkedin", "username": "14ud3", "url": "http://linkedin.com/in/laude" },
       { "network": "twitter", "url": "http://twitter.com/14ud3" }
     ]
   },
   "interests": [
     { "name": "Computer Languages" },
-    { "name": "Robotics" },
+    { "name": "Security Research" },
     { "name": "Competitive Programming" },
     { "name": "Reverse Engineering" },
     { "name": "Chess" }
@@ -108,13 +108,73 @@
       "title": "AIMSS Scholarship",
       "date": "2021",
       "awarder": "Arizona Institute for Measuring Standards",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "summary": ""
     },
     {
       "title": "2020 National Olympiad in Informatics (NOI.PH) Finalist",
-      "date": "2020",
-      "awarder": "National Olympiad in Informatics (NOI.PH)",
-      "summary": "See my portfolio site for more details."
+      "date": "Aug 2020",
+      "awarder": "NOI.PH",
+      "summary": "Rank 2"
+    },
+    {
+      "title": "Innopolis Open 2021 - First Qualification Round",
+      "date": "Sep 2021",
+      "awarder": "Innopolis Open",
+      "summary": ""
+    },
+    {
+      "title": "Round 3 Qualifier, 2021 Google Code Jam",
+      "date": "Jun 2021",
+      "awarder": "Google",
+      "summary": ""
+    },
+    {
+      "title": "2021 Ateneo De Manila Senior High School Dagitab Programming Contest (Codeforces)";
+      "date": "Jan 2021";
+      "awarder": "Codeforces";
+      "summary": "Rank: 1, Score: 1300."
+    },
+    {
+      "title": "EO GSEA 2020 - 3rd Runner Up";
+      "date": "Nov 2020";
+      "awarder": "Entrepreneur's Organization - Global Student Entrepreneurship Awards";
+      "summary": "In recognition of my achievements as a student entrepreneur through the Entrepreneur's Organization - Global Student Entrepreneurship Awards."
+    },
+    {
+      "title": "Security Researcher Acknowledgements for Microsoft Online Services";
+      "date": "Jun 2019";
+      "awarder": "Microsoft";
+      "summary": ""
+    },
+    {
+      "title": "Apple Security Acknowledgements";
+      "date": "Mar 2019";
+      "awarder": "Apple";
+      "summary": ""
+    },
+    {
+      "title": "Adobe Security Acknowledgements";
+      "date": "Jan 2019";
+      "awarder": "Adobe";
+      "summary": ""
+    },
+    {
+      "title": "Yahoo! Security Hall of Fame";
+      "date": "Jan 2019";
+      "awarder": "Yahoo!";
+      "summary": ""
+    },
+    {
+      "title": "Oracle Critical Patch";
+      "date": "Apr 2019";
+      "awarder": "Oracle";
+      "summary": ""
+    },
+    {
+      "title": "Faceboook White Hats";
+      "date": "Aug 2019";
+      "awarder": "Meta";
+      "summary": ""
     }
   ],
   "references": [
