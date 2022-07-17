@@ -6,11 +6,11 @@
     "email": "ilaude@asu.edu",
     "phone": "(+63)956 720 2632",
     "website": "https://14ud3.github.io",
-    "summary": "I am a Sotware Engineer and a Hardware Hacker currently majoring in Mathematics and Computer Science. I expect to graduate in Spring, 2024. While my work focuses on Security Research and Software Development, mostly solving problems on a broad range of systems, from low latency trading engine to grid computing or embedded systems, I love joining CP competitions, you can check my <a href='https://14ud3.blogspot.com'>old blog</a> here, I love building custom keyboards and playing chess. My non-work interests range widely, everything from quantum computing, philosophy to chaos theory. I could tell you about it, but THAT would NOT be a “length-limited” conversation!.",
+    "summary": "I am a Sotware Engineer living in PH. My work focuses on Software Engineering, mostly solving problems on a broad range of systems, from low latency trading engine to grid computing or embedded systems, I love joining CP competitions, you can check my <a href='https://14ud3.blogspot.com'>old blog</a> here, I love building custom keyboards and playing chess. My non-work interests range widely, everything from quantum computing, philosophy to chaos theory. I could tell you about it, but THAT would NOT be a “length-limited” conversation!.",
     "location": { "address": "", "postalCode": "5300", "city": "Puerto Princesa", "countryCode": "PH", "region": "Palawan" },
     "profiles": [
       { "network": "github", "username": "14ud3", "url": "http://github.com/14ud3" },
-      { "network": "twitter", "url": "http://twitter.com/14ud3" }
+      { "network": "twitter", "username": "14ud3","url": "http://twitter.com/14ud3" }
     ]
   },
   "interests": [
