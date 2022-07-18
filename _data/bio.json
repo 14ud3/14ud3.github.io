@@ -14,8 +14,8 @@
     ]
   },
   "interests": [
+    { "name": "C++" },
     { "name": "Computer Languages" },
-    { "name": "Security Research" },
     { "name": "Dynamic Programming" },
     { "name": "Software Engineering" },
     { "name": "Chess" }
@@ -23,7 +23,7 @@
   "skills": [
     {
       "name": "Languages",
-      "keywords": [ "HTML", "CSS", "Python", "C/C++", "Java", "Javascript", "PHP" ]
+      "keywords": [ "C/C++", "Java", "Javascript", "PHP", "Python" ]
     },
     {
       "name": "Libraries/Frameworks",
@@ -31,7 +31,7 @@
     },
     {
       "name": "Database Systems",
-      "keywords": [ "MySQL", "SQLLite", "NoSQL", "SQLAlchemy", "MongoDB", "Memcached/Redis" ]
+      "keywords": [ "MySQL", "SQLLite", "MongoDB", "Memcached/Redis" ]
     },
     {
       "name": "Toolsets/OS",
@@ -49,17 +49,6 @@
       "highlights": [
         "Built a webhook that handles different endpoints which integrates existing systems for data collection and offer personalization based on geolocation using PHP and MySQL.",
         "Built cross-platform mobile applications and web systems  for ride-hailing, courier delivery, and other transport-related services."
-      ]
-    },
-    {
-      "company": "Hackerone",
-      "position": "Security Researcher",
-      "website": "http://www.hackerone.com/",
-      "startDate": "2019-01-01",
-      "endDate": "Present",
-      "summary": "",
-      "highlights": [
-        "Identifying, documenting, and reporting vulnerabilities across many organizations and industries."
       ]
     }
   ],
@@ -89,12 +78,6 @@
     }
   ],
   "awards": [
-    {
-      "title": "AIMSS Scholarship",
-      "date": "2021",
-      "awarder": "Arizona Institute for Measuring Standards",
-      "summary": ""
-    },
     {
       "title": "2020 National Olympiad in Informatics (NOI.PH) Finalist",
       "date": "Aug 2020",
