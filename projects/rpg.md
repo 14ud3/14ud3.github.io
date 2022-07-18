@@ -1,14 +1,12 @@
 ---
 layout: project
 type: project
-image: 
 title: "TD Combat Game"
 date: 2022
 published: true
 labels:
   - C++
-  - 
-  - C++
+  - RPG
 summary: "Text RPG Project in C++"
 ---
 
