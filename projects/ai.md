@@ -11,6 +11,6 @@ labels:
 summary: ""
 ---
 
-![Example Image](img/aitest.png)
+![Example Image](/img/aitest.png)
 
 View repository [here](https://github.com/14ud3/ai-test)
