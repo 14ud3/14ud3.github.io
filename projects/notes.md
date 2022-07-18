@@ -13,6 +13,8 @@ labels:
 summary: "Notes application in Javascript that uses local storage and allows for edits, among other things"
 ---
 
+![alt](/img/notes.png)
+
 This project belongs to my study of web development, like I said in my blog, I'm just getting started to web development so appy-polly-loggies if you think this is a bad project...
 
 This Note App is obviously a note-taking web app, except it stores data on the your local storage, the stored data is saved across your browser sessions and has no expiration time. Know more about local storage [here](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage).
