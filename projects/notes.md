@@ -1,7 +1,6 @@
 ---
 layout: project
 type: project
-image: notes.png
 title: "Notes App"
 date: 2022
 published: true
