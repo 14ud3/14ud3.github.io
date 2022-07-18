@@ -1,7 +1,6 @@
 ---
 layout: project
 type: project
-image: aitest.png
 title: "Example AI code for Guards"
 date: 2022
 published: true
