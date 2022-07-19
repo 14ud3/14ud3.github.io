@@ -15,27 +15,27 @@
   },
   "interests": [
     { "name": "C++" },
-    { "name": "Computer Languages" },
-    { "name": "Dynamic Programming" },
+    { "name": "Embedded Systems" },
+    { "name": "Electronics" },
     { "name": "Software Engineering" },
     { "name": "Chess" }
   ],
   "skills": [
     {
       "name": "Languages",
-      "keywords": [ "C/C++", "Java", "Javascript", "PHP", "Python" ]
+      "keywords": [ "C/C++", "Java", "Javascript", "Python" ]
     },
     {
       "name": "Libraries/Frameworks",
-      "keywords": [ "NodeJS", "Laravel", "CodeIgniter", "Spring", "Django", "Boostrap" ]
+      "keywords": [ "NodeJS", "React" ]
     },
     {
       "name": "Database Systems",
-      "keywords": [ "MySQL", "SQLLite", "MongoDB", "Memcached/Redis" ]
+      "keywords": [ "MySQL", "NoSQL", "MongoDB", "Memcached/Redis" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Version Control (Git/GitHub)", "Heroku", "Eclipse", "Docker", "g++", "TI LaunchPad" ]
+      "keywords": [ "MacOS", "Unix" "Linux", "Version Control (Git/GitHub)", "Heroku", "Eclipse", "Docker", "g++", "TI LaunchPad" ]
     }
   ],
   "work": [
@@ -95,18 +95,6 @@
       "date": "Jun 2021",
       "awarder": "Google",
       "summary": ""
-    },
-    {
-      "title": "2021 Ateneo De Manila Senior High School Dagitab Programming Contest (Codeforces)",
-      "date": "Jan 2021",
-      "awarder": "Codeforces",
-      "summary": "Rank: 1, Score: 1300."
-    },
-    {
-      "title": "EO GSEA 2020 - 3rd Runner Up",
-      "date": "Nov 2020",
-      "awarder": "Entrepreneur's Organization - Global Student Entrepreneurship Awards",
-      "summary": "In recognition of my achievements as a student entrepreneur through the Entrepreneur's Organization - Global Student Entrepreneurship Awards."
     },
     {
       "title": "Security Researcher Acknowledgements for Microsoft Online Services",
