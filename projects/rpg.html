@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="TD Combat Game | Ignacio Laude | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://avatars.githubusercontent.com/u/55919457?v=4">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Ignacio Laude | Professional Portfolio">
+    <meta property="og:url" content="https://14ud3.github.io/projects/rpg.html">
+    <meta property="og:title" content="TD Combat Game | Ignacio Laude | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/55919457?v=4">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>TD Combat Game | Ignacio Laude | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">14ud3</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">TD Combat Game</h1>
+ <div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#pragma once
+</span>
+<span class="c1">// Included Libraries</span>
+<span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+#include</span> <span class="cpf">"sdl/SDL.h"</span><span class="cp">
+#include</span> <span class="cpf">"SDL_image.h"</span><span class="cp">
+#include</span> <span class="cpf">"math.h"</span><span class="cp">
+</span>
+<span class="k">const</span> <span class="kt">int</span> <span class="n">TOTAL_PARTICLES</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
+
+<span class="c1">// Function Prototypes</span>
+<span class="kt">void</span> <span class="nf">Input</span><span class="p">();</span>
+<span class="kt">void</span> <span class="nf">Text</span><span class="p">(</span><span class="kt">char</span><span class="o">*</span> <span class="n">tText</span><span class="p">,</span> <span class="kt">int</span> <span class="n">x</span><span class="p">,</span> <span class="kt">int</span> <span class="n">y</span><span class="p">);</span>
+<span class="kt">void</span> <span class="nf">CheckTime</span><span class="p">();</span>
+<span class="kt">void</span> <span class="nf">DrawLine</span><span class="p">(</span><span class="kt">int</span> <span class="n">x1</span><span class="p">,</span> <span class="kt">int</span> <span class="n">y1</span><span class="p">,</span> <span class="kt">int</span> <span class="n">x2</span><span class="p">,</span> <span class="kt">int</span> <span class="n">y2</span><span class="p">);</span>
+<span class="kt">void</span> <span class="nf">ExitButton</span><span class="p">();</span>
+<span class="kt">void</span> <span class="nf">AmmoDisplay</span><span class="p">();</span>
+<span class="kt">void</span> <span class="nf">DrawGUI</span><span class="p">();</span>
+
+<span class="k">class</span> <span class="nc">Player</span>
+<span class="p">{</span>
+	<span class="nl">public:</span>
+	<span class="n">Player</span><span class="p">();</span>
+	<span class="kt">void</span> <span class="n">Movement</span><span class="p">(</span><span class="kt">bool</span> <span class="n">u</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">d</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">r</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">l</span><span class="p">,</span> <span class="n">SDL_Surface</span><span class="o">*</span> <span class="n">dest</span><span class="p">);</span>
+	<span class="n">SDL_Rect</span> <span class="n">playerRec</span><span class="p">;</span>
+	
+	<span class="n">SDL_Surface</span><span class="o">*</span> <span class="n">TextureSet</span><span class="p">();</span>
+	
+	<span class="kt">void</span> <span class="n">SetSurfaces</span><span class="p">();</span>
+	<span class="n">SDL_Surface</span><span class="o">*</span> <span class="n">down</span> <span class="o">=</span> <span class="nb">NULL</span><span class="p">;</span>
+	<span class="n">SDL_Surface</span><span class="o">*</span> <span class="n">up</span> <span class="o">=</span> <span class="nb">NULL</span><span class="p">;</span>
+	<span class="n">SDL_Surface</span><span class="o">*</span> <span class="n">right</span> <span class="o">=</span> <span class="nb">NULL</span><span class="p">;</span>
+	<span class="n">SDL_Surface</span><span class="o">*</span> <span class="n">left</span> <span class="o">=</span> <span class="nb">NULL</span><span class="p">;</span>
+	<span class="n">SDL_Surface</span><span class="o">*</span> <span class="n">upLeft</span> <span class="o">=</span> <span class="nb">NULL</span><span class="p">;</span>
+	<span class="n">SDL_Surface</span><span class="o">*</span> <span class="n">upRight</span> <span class="o">=</span> <span class="nb">NULL</span><span class="p">;</span>
+	<span class="n">SDL_Surface</span><span class="o">*</span> <span class="n">downRight</span> <span class="o">=</span> <span class="nb">NULL</span><span class="p">;</span>
+	<span class="n">SDL_Surface</span><span class="o">*</span> <span class="n">downLeft</span> <span class="o">=</span> <span class="nb">NULL</span><span class="p">;</span>
+<span class="p">};</span>
+
+<span class="k">class</span> <span class="nc">Timer</span>
+<span class="p">{</span>
+	<span class="nl">private:</span>
+		<span class="kt">int</span> <span class="n">startTicks</span><span class="p">;</span>
+		<span class="kt">int</span> <span class="n">pauseTicks</span><span class="p">;</span>
+		<span class="kt">bool</span> <span class="n">paused</span><span class="p">;</span>
+		<span class="kt">bool</span> <span class="n">started</span><span class="p">;</span>
+		
+	<span class="nl">public:</span>
+		<span class="n">Timer</span><span class="p">();</span>
+		<span class="kt">void</span> <span class="n">start</span><span class="p">();</span>
+		<span class="kt">void</span> <span class="n">stop</span><span class="p">();</span>
+		<span class="kt">void</span> <span class="n">pause</span><span class="p">();</span>
+		<span class="kt">void</span> <span class="n">unpause</span><span class="p">();</span>
+		<span class="kt">int</span> <span class="n">getTicks</span><span class="p">();</span>
+		<span class="kt">bool</span> <span class="n">isStarted</span><span class="p">();</span>
+		<span class="kt">bool</span> <span class="n">isPaused</span><span class="p">();</span>	
+<span class="p">};</span>
+
+<span class="k">class</span> <span class="nc">Enemy</span>
+<span class="p">{</span>
+	<span class="nl">public:</span>
+		<span class="kt">int</span> <span class="n">iHealth</span><span class="p">;</span>
+		
+		<span class="n">SDL_Rect</span> <span class="n">area</span><span class="p">;</span>
+		<span class="n">SDL_Rect</span> <span class="n">health</span><span class="p">;</span>
+		<span class="n">SDL_Surface</span><span class="o">*</span> <span class="n">texture</span><span class="p">;</span>
+		
+		<span class="kt">void</span> <span class="n">Setup</span><span class="p">(</span><span class="kt">int</span> <span class="n">x</span><span class="p">,</span> <span class="kt">int</span> <span class="n">y</span><span class="p">,</span> <span class="kt">char</span><span class="o">*</span> <span class="n">image</span><span class="p">);</span>
+		<span class="kt">void</span> <span class="n">Update</span><span class="p">();</span>
+<span class="p">};</span>
+
+<span class="k">class</span> <span class="nc">Bullet</span>
+<span class="p">{</span>
+	<span class="kt">int</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">;</span>
+	<span class="kt">int</span> <span class="n">count</span><span class="p">;</span>
+	<span class="kt">int</span> <span class="n">countMax</span><span class="p">;</span>
+	<span class="n">SDL_Surface</span><span class="o">*</span> <span class="n">bullet</span><span class="p">;</span>
+	<span class="n">SDL_Rect</span> <span class="n">bulRec</span><span class="p">;</span>
+	<span class="nl">public:</span>
+		<span class="n">Bullet</span><span class="p">(</span><span class="kt">int</span> <span class="n">dX</span><span class="p">,</span> <span class="kt">int</span> <span class="n">dY</span><span class="p">);</span>
+		<span class="o">~</span><span class="n">Bullet</span><span class="p">();</span>
+		<span class="kt">void</span> <span class="n">update</span><span class="p">();</span>
+		
+		<span class="kt">bool</span> <span class="n">Dest</span><span class="p">;</span>
+<span class="p">};</span>
+</code></pre></div></div>
+
+<p>To avoid compilation errors,</p>
+
+<p>Install <code class="language-plaintext highlighter-rouge">SDL_image library</code></p>
+
+<p>Debian</p>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt-get install libsdl-image1.2-dev</code></p>
+
+<p>Add <code class="language-plaintext highlighter-rouge">"-lSDL_image"</code> to the compilation line</p>
+
+<p>In case you’re using Windows, then you should first install <code class="language-plaintext highlighter-rouge">sdl_image</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get install libsdl2-image-dev</code> and then</p>
+
+<p><code class="language-plaintext highlighter-rouge">#include &lt;SDL_image.h&gt;</code> not <code class="language-plaintext highlighter-rouge">#include &lt;SDL/SDL_image.h&gt;</code></p>
+
+<p>Install <code class="language-plaintext highlighter-rouge">SDL2</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt-get install libsdl2-dev</code></p>
+
+<p>For the header:</p>
+
+<p><code class="language-plaintext highlighter-rouge">#include &lt;SDL2/SDL.h&gt;</code></p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
